@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    /*outline: 1px solid rgba(216, 234, 250, 0.62);*/
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Montserrat', sans-serif;
+}
+
+svg {
+    fill: currentColor;
+}
+
+pre {
+    white-space: pre-wrap; /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    background-color: #efefef;
+    line-height: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.dark pre {
+    white-space: pre-wrap; /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    background-color: #32373b;
+    line-height: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #32373b;
+}
